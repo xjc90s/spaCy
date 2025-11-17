@@ -12,7 +12,7 @@ build-backend = "setuptools.build_meta"
 
 [tool.cibuildwheel]
 build = "*"
-skip = "cp39* *-win32 *i686* cp3??t-* *win-arm*"
+skip = "cp39* *-win32 *i686* cp3??t-* *win*arm*"
 test-skip = ""
 
 archs = ["native"]
