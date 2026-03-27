@@ -19,7 +19,8 @@ on:
       - "*.mdx"
       - "website/**"
 
-permissions: {}
+permissions:
+  contents: read
 
 jobs:
   validate:

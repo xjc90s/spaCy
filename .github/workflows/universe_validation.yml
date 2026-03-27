@@ -13,7 +13,8 @@ on:
     paths:
       - "website/meta/universe.json"
 
-permissions: {}
+permissions:
+  contents: read
 
 jobs:
   validate:
